@@ -2,12 +2,9 @@
 
 @section('content-title')
 <div class=" text-center">
-    <h1>Daftar Arsip Surat <i class="fas fa-envelope-open-text"></i></h1>
+    <h1>Arsip Surat</i></h1>
     <p>Berikut ini adalah surat-surat yang telah terbit dan diarsipkan.<br> Klik "Lihat" pada kolom aksi untuk
         menampilkan surat.</p>
-
-        <hr class="mx-auto" style="height:2px; width: 50%; color: rgb(0, 0, 0)">
-        <hr class="mx-auto" style="height:2px; width: 80%;">
 </div>
 
 @endsection
@@ -15,7 +12,7 @@
 @section('body')
 <div class="table-list">
     <div class="row ">
-        <div class="col-md-3 " style="margin-left: 945px">
+        <div class="col-md-3 " style="margin-left: 110px">
             <form action="" method="GET">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Search by title.." name="keyword" value="{{ $keyword }}" style="background-color: rgb(219, 219, 219)">

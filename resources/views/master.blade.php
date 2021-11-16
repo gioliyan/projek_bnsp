@@ -23,14 +23,10 @@
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class=" border-right" id="sidebar-wrapper" style="background-color: #15192F ">
-       
-      <div class="sidebar-heading ">
-          <img src="https://lsptrainerindonesia.id/wp-content/uploads/2019/07/Logo-LSP-TI-png.png" alt="tungguu" width="100">
-        </div>
+    <div class=" border-right" id="sidebar-wrapper" style="background-color: #f8f7f5">
       <div class="list-group w-100">
-        <a href="/" class="list-group-item list-group-item-action" ><i class="fas fa-file-archive fa-fw" style="margin-right: 22px"></i>Arsip </a>
-        <a href="/about" class="list-group-item list-group-item-action" ><i class="fas fa-user-graduate fa-fw" style="margin-right: 15px"></i>  About </a>
+        <a href="/" class="list-group-item list-group-item-action" ><i class="bi bi-star-fill" style="margin-right: 22px"></i>Arsip </a>
+        <a href="/about" class="list-group-item list-group-item-action" ><i class="bi bi-star-fill" style="margin-right: 15px"></i>  About </a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
